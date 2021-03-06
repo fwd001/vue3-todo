@@ -41,10 +41,6 @@ export default {
   display: flex;
   background-color: #eee;
   border-bottom: 1px solid #fff;
-  
-}
-.list:hover {
-  background-color: #ccc;
 }
 .content {
   flex: 1;

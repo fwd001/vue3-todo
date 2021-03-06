@@ -1,7 +1,7 @@
 <template>
   <ul class="footer-ul">
     <li> --- <button v-on:click="clear">清除</button> --- </li>
-    <li>共：{{ list.length }} --- </li>
+    <li>共：{{ list.length }} ---{{ !!false && '有length'}} </li>
     <li>已完成：{{complete}} </li>
   </ul>
 </template>
